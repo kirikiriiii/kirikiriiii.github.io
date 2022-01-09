@@ -8,7 +8,7 @@ export default defineUserConfig<GungnirThemeOptions>({
   head: [["link", { rel: "icon", href: "/img/logo.svg" }]],
 
   // 网站标签页名字
-  title: '博客',
+  title: 'KiririiiiのBlog',
   description: 'xxx的博客',
 
   bundler: "@vuepress/vite",
