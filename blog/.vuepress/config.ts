@@ -8,8 +8,8 @@ export default defineUserConfig<GungnirThemeOptions>({
   head: [["link", { rel: "icon", href: "/img/logo.svg" }]],
 
   // 网站标签页名字
-  title: 'KiririiiiのBlog',
-  description: 'xxx的博客',
+  title: '铁道厨',
+  description: '铁道厨的博客',
 
   bundler: "@vuepress/vite",
 
@@ -17,15 +17,15 @@ export default defineUserConfig<GungnirThemeOptions>({
 
   themeConfig: {
     // 一言，自动获取一句名言
-    hitokoto: "https://v1.hitokoto.cn?c=d&c=i", // enable hitokoto (一言) or not?
+    // hitokoto: "https://v1.hitokoto.cn?c=d&c=i", // enable hitokoto (一言) or not?
     // 或者使用本地，修改 docs/.vuepress/public/hitokoto/index.json 文件
-    // hitokoto: "/hitokoto/index.json",
+    hitokoto: "/hitokoto/index.json",
 
     // personal information
     personalInfo: {
-      name: "Shaaaaa（我的博客名字）",
-      avatar: "/img/avatar.jpeg",
-      description: "我的博客描述",
+      name: "铁道厨",
+      avatar: "/img/avatar.jpg",
+      description: "", // 博客描述
       sns: {
         github: "Renovamen",
         // linkedin: "xiaohan-zou-55bba0160",
@@ -70,6 +70,7 @@ export default defineUserConfig<GungnirThemeOptions>({
     // other pages
     pages: {
       tags: {
+        title: 'Ideas',
         subtitle: "Black Sheep Wall",
         bgImage: {
           path: "/img/pages/tags.jpg",
@@ -87,7 +88,7 @@ export default defineUserConfig<GungnirThemeOptions>({
     },
 
     backToHome: '返回首页',
-    homeText: '首页 - 左上角',
+    homeText: '',
     searchPlaceholder: '搜索',
     locales: {
       '/': {
@@ -101,21 +102,21 @@ export default defineUserConfig<GungnirThemeOptions>({
       icon: "fort-awesome"
     },
     {
-      text: "标签",
+      text: "文章列表",
       link: "/tags/",
       icon: "tag"
     },
-    {
-      text: "链接",
-      link: "/links/",
-      icon: "satellite-dish"
-    },
-    {
-      text: "关于",
-      link: "/about/",
-      icon: "about-me",
-      iconScale: 1.1
-    },
+    // {
+    //   text: "链接",
+    //   link: "/links/",
+    //   icon: "satellite-dish"
+    // },
+    // {
+    //   text: "关于",
+    //   link: "/about/",
+    //   icon: "about-me",
+    //   iconScale: 1.1
+    // },
       // {
       //   text: "VuePress",
       //   link: "https://v2.vuepress.vuejs.org/zh/",
@@ -170,11 +171,7 @@ export default defineUserConfig<GungnirThemeOptions>({
     },
 
     footer: `
-      &copy; <a href="https://github.com/Renovamen" target="_blank">Renovamen</a> 2018-2022
-      <br>
-      Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
-      <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
-    `
+      &copy; <a href="https://github.com/kirikiriiii" target="_blank">铁道厨</a> 2022`
   },
 
   markdown: {
