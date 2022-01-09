@@ -1,0 +1,2 @@
+const t={key:"v-a25ecf8e",path:"/posts/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90.html",title:"\u94C1\u9053\u53A8test",lang:"en-US",frontmatter:{layout:"Post",title:"\u94C1\u9053\u53A8test",subtitle:"testtesttest",author:"kirito",date:"2021-12-24T00:00:00.000Z",headerImage:"/img/in-post/2021-12-24/header.jpg",catalog:!0,tags:["test","tag with space"]},excerpt:`<p>Welcome to VuePress theme Gungnir.</p>
+`,headers:[{level:2,title:"bytedance",slug:"bytedance",children:[]}],readingTime:{minutes:1,words:8},filePathRelative:"posts/\u65B0\u5E74\u5FEB\u4E50.md"};export{t as data};
