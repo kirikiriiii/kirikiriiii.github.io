@@ -2,8 +2,8 @@
 layout: About
 title: About
 avatar: /img/avatar.jpg
-name: Xiaohan Zou
-subname: 邹笑寒
+name: ‘’
+subname: ‘’
 cv: /files/cv/brief/en.pdf
 
 interests:

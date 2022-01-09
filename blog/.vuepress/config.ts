@@ -27,12 +27,12 @@ export default defineUserConfig<GungnirThemeOptions>({
       avatar: "/img/avatar.jpg",
       description: "", // 博客描述
       sns: {
-        github: "Renovamen",
+        github: "",
         // linkedin: "xiaohan-zou-55bba0160",
         // facebook: "renovamen.zou",
         // twitter: "renovamen_zxh",
         // zhihu: "chao-neng-gui-su",
-        email: "renovamenzxh@gmail.com",
+        email: "",
         // rss: "/rss.xml",
         // customized sns
         bilibili: {
